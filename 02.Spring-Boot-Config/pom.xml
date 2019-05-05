@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.springboot</groupId>
-	<artifactId>Start-Spring-Boot</artifactId>
+	<artifactId>Spring-Boot-Config</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Start-Spring-Boot</name>
+	<name>Spring-Boot-Config</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -30,20 +30,24 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
 	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>nexus-aliyun</id>
-			<name>Nexus aliyun</name>
-			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
-		</repository>
-	</repositories>
+	<!--<repositories>-->
+		<!--<repository>-->
+			<!--<id>nexus-aliyun</id>-->
+			<!--<name>Nexus aliyun</name>-->
+			<!--<url>http://maven.aliyun.com/nexus/content/groups/public</url>-->
+		<!--</repository>-->
+	<!--</repositories>-->
 
 	<build>
 		<plugins>
